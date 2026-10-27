@@ -67,7 +67,7 @@ claude_skill/
 
 ## 3. 앞으로 할 일
 
-- [ ] GitHub에 `claude_skill` public 레포 생성 (gh 미설치 → 웹에서 만들거나 gh 설치)
+- [x] GitHub 레포 생성: https://github.com/Jo-ggaecheol/claude_skills
 - [x] 이 폴더에서 `git init` 및 폴더 구조 만들기
 - [x] `README.md` 목록표 템플릿 작성
 - [x] `install.sh` 작성 (`--list` 지원, 더미 skill로 테스트 완료)
@@ -76,7 +76,7 @@ claude_skill/
 - [x] `global/`의 skill들을 `~/.claude/skills/`에 심볼릭 링크로 연결하는 스크립트(`link-global.sh`) 작성 (기존 항목은 건너뜀, 테스트 완료)
 - [x] `vercel-labs/skills`에서 find-skills를 받아 `global/find-skills/`에 넣고 `SOURCE.md` 작성
 - [x] `anthropics/skills` 등에서 고른 skill 7개 `_inbox/`에 넣기 (headroom은 plugin → `docs/plugins/headroom.md`)
-- [ ] 첫 커밋 및 push
+- [x] 첫 커밋 및 push
 - [ ] 테스트: 빈 폴더에서 `install.sh`를 실행해 보고 Claude Code에서 `/` 목록에 skill이 뜨는지 확인
 
 ### 나중에 (선택)
